@@ -199,3 +199,7 @@ Desenvolvido com ❤️ usando React, Tailwind CSS e shadcn/ui.
 
 **Versão**: 1.0.0  
 **Última Atualização**: Abril 2026
+
+<img width="1900" height="873" alt="Captura de ecrã 2026-04-28 235834" src="https://github.com/user-attachments/assets/eacce873-351d-4f07-9380-c1acd0e00aba" />
+<img width="1897" height="980" alt="Captura de ecrã 2026-04-28 235846" src="https://github.com/user-attachments/assets/e567d2a0-65fb-41a3-81d4-f57670a36a32" />
+
