@@ -197,7 +197,7 @@ export default function Home() {
           <div className="container">
             <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center mb-20">
               <div>
-                <p className="text-orange-500 font-semibold text-sm uppercase tracking-wide mb-4">Cabeçalho</p>
+               {/* <p className="text-orange-500 font-semibold text-sm uppercase tracking-wide mb-4">Cabeçalho</p>*/}
                 <h2 className="text-4xl md:text-5xl font-bold text-black mb-6">O que fazemos</h2>
                 <p className="text-lg text-gray-700 mb-8 leading-relaxed">
                   Oferecemos uma gama completa de serviços para garantir que a sua jornada de mobilidade entre Portugal e Espanha é suave e bem-sucedida. Da candidatura até ao apoio contínuo, estamos com você em cada passo.
@@ -296,7 +296,7 @@ export default function Home() {
                   onClick={() => scrollToSection("contact")}
                   className="mt-8 bg-orange-500 hover:bg-orange-600 text-white text-base py-3 px-6"
                 >
-                  Texto do botão
+                  Entre em contacto
                 </Button>
               </div>
             </div>

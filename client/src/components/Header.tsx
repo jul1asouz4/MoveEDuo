@@ -5,6 +5,13 @@ import { Button } from "@/components/ui/button";
 export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
+  const scrollToSection = (sectionId: string) => {
+    const element = document.getElementById(sectionId);
+    if (element) {
+      element.scrollIntoView({ behavior: "smooth" });
+    }
+  };
+
   const navItems = [
     { label: "Lar", href: "#home" },
     { label: "Sobre", href: "#about" },
@@ -37,7 +44,10 @@ export default function Header() {
 
         {/* CTA Button */}
         <div className="hidden md:block">
-          <Button className="bg-orange-500 hover:bg-orange-600 text-white">
+          <Button 
+            onClick={() => scrollToSection("contact")}
+            className="bg-orange-500 hover:bg-orange-600 text-white"
+          >
             Começar Agora
           </Button>
         </div>
@@ -69,7 +79,10 @@ export default function Header() {
                 {item.label}
               </a>
             ))}
-            <Button className="w-full bg-orange-500 hover:bg-orange-600 text-white">
+            <Button 
+              onClick={() => scrollToSection("contact")}
+              className="w-full bg-orange-500 hover:bg-orange-600 text-white"
+            >
               Começar Agora
             </Button>
           </div>
